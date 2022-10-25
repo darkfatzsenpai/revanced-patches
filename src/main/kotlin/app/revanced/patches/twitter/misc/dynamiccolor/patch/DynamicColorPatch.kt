@@ -3,13 +3,14 @@ package app.revanced.patches.twitter.misc.dynamiccolor.patch
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.ResourceData
+import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultError
 import app.revanced.patcher.patch.PatchResultSuccess
+import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.impl.ResourcePatch
 import app.revanced.patches.twitter.misc.dynamiccolor.annotations.DynamicColorCompatibility
+import java.io.FileWriter
 import java.nio.file.Files
 
 @Patch
@@ -17,9 +18,9 @@ import java.nio.file.Files
 @Description("Replaces the default Twitter Blue with the users Material You palette.")
 @DynamicColorCompatibility
 @Version("0.0.1")
-class DynamicColorPatch : ResourcePatch() {
-    override fun execute(data: ResourceData): PatchResult {
-        val resDirectory = data["res"]
+class DynamicColorPatch : ResourcePatch {
+    override fun execute(context: ResourceContext): PatchResult {
+        val resDirectory = context["res"]
         if (!resDirectory.isDirectory) return PatchResultError("The res folder can not be found.")
 
         val valuesV31Directory = resDirectory.resolve("values-v31")
@@ -28,20 +29,17 @@ class DynamicColorPatch : ResourcePatch() {
         val valuesNightV31Directory = resDirectory.resolve("values-night-v31")
         if (!valuesNightV31Directory.isDirectory) Files.createDirectories(valuesNightV31Directory.toPath())
 
-        listOf(valuesV31Directory, valuesNightV31Directory).forEach {
+        listOf(valuesV31Directory, valuesNightV31Directory).forEach { it ->
             val colorsXml = it.resolve("colors.xml")
 
             if(!colorsXml.exists()) {
-                Files.writeString(
-                    colorsXml.toPath(),
-                    "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
-                            "<resources>\n" +
-                            "</resources>"
-                )
+                FileWriter(colorsXml).use {
+                    it.write("<?xml version=\"1.0\" encoding=\"utf-8\"?><resources></resources>")
+                }
             }
         }
 
-        data.xmlEditor["res/values-v31/colors.xml"].use { editor ->
+        context.xmlEditor["res/values-v31/colors.xml"].use { editor ->
             val document = editor.file
 
             mapOf(
@@ -64,7 +62,7 @@ class DynamicColorPatch : ResourcePatch() {
             }
         }
 
-        data.xmlEditor["res/values-night-v31/colors.xml"].use { editor ->
+        context.xmlEditor["res/values-night-v31/colors.xml"].use { editor ->
             val document = editor.file
 
             mapOf(

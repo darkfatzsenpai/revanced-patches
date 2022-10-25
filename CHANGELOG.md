@@ -1,3 +1,249 @@
+## [2.85.2](https://github.com/revanced/revanced-patches/compare/v2.85.1...v2.85.2) (2022-10-22)
+
+
+### Bug Fixes
+
+* **youtube/integrations:** set context for remaining activities ([#828](https://github.com/revanced/revanced-patches/issues/828)) ([b2b6a3d](https://github.com/revanced/revanced-patches/commit/b2b6a3d1492bc2d5a6e27c68c74e3904764dda4b))
+
+## [2.85.1](https://github.com/revanced/revanced-patches/compare/v2.85.0...v2.85.1) (2022-10-21)
+
+
+### Bug Fixes
+
+* **youtube/theme:** extend dark mode theming ([#827](https://github.com/revanced/revanced-patches/issues/827)) ([6d803c5](https://github.com/revanced/revanced-patches/commit/6d803c5386e1f6f6fb6a7fa0a9f0bb81ee1022ac))
+
+# [2.85.0](https://github.com/revanced/revanced-patches/compare/v2.84.1...v2.85.0) (2022-10-20)
+
+
+### Features
+
+* **youtube:** `hide-captions-button` patch ([#770](https://github.com/revanced/revanced-patches/issues/770)) ([478af6a](https://github.com/revanced/revanced-patches/commit/478af6ad54ffdf6f99abab35a84a4f50b59d28c8))
+
+## [2.84.1](https://github.com/revanced/revanced-patches/compare/v2.84.0...v2.84.1) (2022-10-20)
+
+
+### Bug Fixes
+
+* **youtube/hide-mix-playlists:** correct switch title, summary and defaults ([#821](https://github.com/revanced/revanced-patches/issues/821)) ([f9eea33](https://github.com/revanced/revanced-patches/commit/f9eea332cea0b8c3d5c3dfff645b60861e925b5a))
+
+# [2.84.0](https://github.com/revanced/revanced-patches/compare/v2.83.3...v2.84.0) (2022-10-20)
+
+
+### Features
+
+* **youtube:** `hide-mix-playlists` patch  ([#816](https://github.com/revanced/revanced-patches/issues/816)) ([e76c73b](https://github.com/revanced/revanced-patches/commit/e76c73b455c65aa605e418f19d88b64e0e244901))
+
+## [2.83.3](https://github.com/revanced/revanced-patches/compare/v2.83.2...v2.83.3) (2022-10-20)
+
+
+### Bug Fixes
+
+* **youtube/video-ads:** revert faulty method patch ([#820](https://github.com/revanced/revanced-patches/issues/820)) ([666248a](https://github.com/revanced/revanced-patches/commit/666248ae65d1ee84d1a278714c0dcd2528c5dd14))
+
+## [2.83.2](https://github.com/revanced/revanced-patches/compare/v2.83.1...v2.83.2) (2022-10-19)
+
+
+### Bug Fixes
+
+* **youtube/video-ads:** add back initial method to block ads ([#818](https://github.com/revanced/revanced-patches/issues/818)) ([8b02acd](https://github.com/revanced/revanced-patches/commit/8b02acd3b33c4702d81ec46dccb35604ec5fbe02))
+
+## [2.83.1](https://github.com/revanced/revanced-patches/compare/v2.83.0...v2.83.1) (2022-10-19)
+
+
+### Bug Fixes
+
+* **youtube/video-ads:** block earlier in call hirarchy ([#813](https://github.com/revanced/revanced-patches/issues/813)) ([f9517d2](https://github.com/revanced/revanced-patches/commit/f9517d2058c7561cf89b59ed36f690417dc076f7))
+
+# [2.83.0](https://github.com/revanced/revanced-patches/compare/v2.82.1...v2.83.0) (2022-10-18)
+
+
+### Features
+
+* bump YouTube Music patches compatibility ([#809](https://github.com/revanced/revanced-patches/issues/809)) ([09f2d8e](https://github.com/revanced/revanced-patches/commit/09f2d8e14937b582bc4bfb7d3a8bb2b7622f772d))
+
+## [2.82.1](https://github.com/revanced/revanced-patches/compare/v2.82.0...v2.82.1) (2022-10-17)
+
+
+### Bug Fixes
+
+* **youtube/video-ads:** return empty ad list earlier ([a47ce9b](https://github.com/revanced/revanced-patches/commit/a47ce9ba4f75673de23eb6054f5652224a48f43e))
+
+# [2.82.0](https://github.com/revanced/revanced-patches/compare/v2.81.11...v2.82.0) (2022-10-13)
+
+
+### Features
+
+* **youtube/remember-video-quality:** remember the quality until changed by default ([1aebabe](https://github.com/revanced/revanced-patches/commit/1aebabefdb0b163e0020fd3b52d7d1fa2404764b))
+
+## [2.81.11](https://github.com/revanced/revanced-patches/compare/v2.81.10...v2.81.11) (2022-10-11)
+
+
+### Bug Fixes
+
+* **youtube/theme:** add missing theme condition check ([#771](https://github.com/revanced/revanced-patches/issues/771)) ([40b70b9](https://github.com/revanced/revanced-patches/commit/40b70b9f9a24cfbf76bcd69f562b87e5cfade66f))
+
+## [2.81.10](https://github.com/revanced/revanced-patches/compare/v2.81.9...v2.81.10) (2022-10-11)
+
+
+### Bug Fixes
+
+* **spotify/disable-capture-restriction:** dynamically find indices ([#759](https://github.com/revanced/revanced-patches/issues/759)) ([2cc64c6](https://github.com/revanced/revanced-patches/commit/2cc64c61d1bc18a1717354085ddc60a251173837))
+
+## [2.81.9](https://github.com/revanced/revanced-patches/compare/v2.81.8...v2.81.9) (2022-10-11)
+
+
+### Bug Fixes
+
+* **youtube/general-ads:** hide ads on wide screens ([#765](https://github.com/revanced/revanced-patches/issues/765)) ([f0d2f3e](https://github.com/revanced/revanced-patches/commit/f0d2f3e01b90bbe6d2b55b941eaf96be2295cd3c))
+* **youtube/theme:** colore the comment action bar ([#762](https://github.com/revanced/revanced-patches/issues/762)) ([4b3abe0](https://github.com/revanced/revanced-patches/commit/4b3abe0d45ac8c0c5ae6cf4955681ba76ce10309))
+
+## [2.81.8](https://github.com/revanced/revanced-patches/compare/v2.81.7...v2.81.8) (2022-10-10)
+
+
+### Bug Fixes
+
+* **youtube/video-ads:** invert condition to hide ads ([e353ed0](https://github.com/revanced/revanced-patches/commit/e353ed0b0fe78feae65f1ad2f6567c1e9aa9c71d))
+
+## [2.81.7](https://github.com/revanced/revanced-patches/compare/v2.81.6...v2.81.7) (2022-10-10)
+
+
+### Bug Fixes
+
+* **video-ads:** invert the condition to hide ads ([a32af95](https://github.com/revanced/revanced-patches/commit/a32af951566a7187ae2618ef08f9298f78f8ea8c))
+
+## [2.81.6](https://github.com/revanced/revanced-patches/compare/v2.81.5...v2.81.6) (2022-10-10)
+
+
+### Bug Fixes
+
+* **video-ads:** return empty list in correct method ([bbcf050](https://github.com/revanced/revanced-patches/commit/bbcf0501d4be0c43eddb7a9b3c32394222efc8f0))
+
+## [2.81.5](https://github.com/revanced/revanced-patches/compare/v2.81.4...v2.81.5) (2022-10-10)
+
+
+### Bug Fixes
+
+* **video-ads:** clobber unused register ([0feb607](https://github.com/revanced/revanced-patches/commit/0feb6073dd3de5dc179ffa9fde2da24439986431))
+
+## [2.81.4](https://github.com/revanced/revanced-patches/compare/v2.81.3...v2.81.4) (2022-10-10)
+
+
+### Bug Fixes
+
+* **general-ads:** invalid smali syntax ([86224c1](https://github.com/revanced/revanced-patches/commit/86224c1f601c1bd22c0ce4dcf2a8e79ea3b8b2ae))
+
+## [2.81.3](https://github.com/revanced/revanced-patches/compare/v2.81.2...v2.81.3) (2022-10-10)
+
+
+### Bug Fixes
+
+* **video-ads:** return empty ad list instead of null ([f6c5027](https://github.com/revanced/revanced-patches/commit/f6c5027981a2b55bbcd2e55d294ebfd5e6f0b527))
+
+## [2.81.2](https://github.com/revanced/revanced-patches/compare/v2.81.1...v2.81.2) (2022-10-08)
+
+
+### Bug Fixes
+
+* **theme:** include coloring the playlist action bar ([#742](https://github.com/revanced/revanced-patches/issues/742)) ([6766ec8](https://github.com/revanced/revanced-patches/commit/6766ec8f31da6dd71fff0ae4b7044af5ec4a5dfd))
+
+## [2.81.1](https://github.com/revanced/revanced-patches/compare/v2.81.0...v2.81.1) (2022-10-07)
+
+
+### Bug Fixes
+
+* **video-ads:** block remaining video ads ([fbc83a2](https://github.com/revanced/revanced-patches/commit/fbc83a22d37012394311a87d27202b7cc86e047d))
+
+# [2.81.0](https://github.com/revanced/revanced-patches/compare/v2.80.0...v2.81.0) (2022-10-06)
+
+
+### Features
+
+* **youtube/general-ads:** do not hide community posts by default ([6269638](https://github.com/revanced/revanced-patches/commit/626963819c183cbfeca4ff4ab0a16fc39ed9d8a8))
+
+# [2.80.0](https://github.com/revanced/revanced-patches/compare/v2.79.2...v2.80.0) (2022-10-04)
+
+
+### Features
+
+* **youtube/remember-video-quality:** remember current quality option ([9c510d4](https://github.com/revanced/revanced-patches/commit/9c510d472048f5bce127eb0329e53aaf259e9b1b))
+
+## [2.79.2](https://github.com/revanced/revanced-patches/compare/v2.79.1...v2.79.2) (2022-10-04)
+
+
+### Bug Fixes
+
+* **youtube/disable-startup-shorts-player:** don't affect functionality of navigation bar  ([#716](https://github.com/revanced/revanced-patches/issues/716)) ([05f5cc1](https://github.com/revanced/revanced-patches/commit/05f5cc17e3fcbf255c6fe5b503c9fd20c218f5a1))
+
+## [2.79.1](https://github.com/revanced/revanced-patches/compare/v2.79.0...v2.79.1) (2022-10-03)
+
+
+### Bug Fixes
+
+* **youtube/disable-startup-shorts-player:** do not prevent playing videos on startup ([#714](https://github.com/revanced/revanced-patches/issues/714)) ([9a0d379](https://github.com/revanced/revanced-patches/commit/9a0d3798afd75bba5c63e1b8803dc25814586be9))
+
+# [2.79.0](https://github.com/revanced/revanced-patches/compare/v2.78.0...v2.79.0) (2022-10-03)
+
+
+### Features
+
+* `hide-video-buttons` patch ([584803a](https://github.com/revanced/revanced-patches/commit/584803aa900f94de1b2b2a0c41fb0884fa9270d3))
+
+# [2.78.0](https://github.com/revanced/revanced-patches/compare/v2.77.1...v2.78.0) (2022-10-02)
+
+
+### Features
+
+* **youtube/general-ads:** check for ad in identifier ([fd0506e](https://github.com/revanced/revanced-patches/commit/fd0506eb95dbf398eb7d6bfa8732f517b9867545))
+
+## [2.77.1](https://github.com/revanced/revanced-patches/compare/v2.77.0...v2.77.1) (2022-10-01)
+
+
+### Bug Fixes
+
+* **tiktok/tiktok-downloads:** add missing patch dependencies ([#686](https://github.com/revanced/revanced-patches/issues/686)) ([5c3b4ed](https://github.com/revanced/revanced-patches/commit/5c3b4ed0530e89d50db3b5bb9893e1ef4b463bae))
+
+# [2.77.0](https://github.com/revanced/revanced-patches/compare/v2.76.3...v2.77.0) (2022-10-01)
+
+
+### Features
+
+* **youtube/hdr-auto-brightness:** increase strength of fingerprint ([2379b58](https://github.com/revanced/revanced-patches/commit/2379b5892b3505c8780f475bbc56f520613fa31d))
+
+## [2.76.3](https://github.com/revanced/revanced-patches/compare/v2.76.2...v2.76.3) (2022-10-01)
+
+
+### Performance Improvements
+
+* **general-ads:** hook pathBuilder ([b9bad0b](https://github.com/revanced/revanced-patches/commit/b9bad0bb922bbd44ddf2acbfae87243beb28851a))
+
+## [2.76.2](https://github.com/revanced/revanced-patches/compare/v2.76.1...v2.76.2) (2022-09-30)
+
+
+### Bug Fixes
+
+* **twitter/monochrome-icon:** add missing `File.write` call ([#682](https://github.com/revanced/revanced-patches/issues/682)) ([de22e3f](https://github.com/revanced/revanced-patches/commit/de22e3f03ef1d6db08f9446f02e687721d9017d7))
+
+## [2.76.1](https://github.com/revanced/revanced-patches/compare/v2.76.0...v2.76.1) (2022-09-30)
+
+
+### Bug Fixes
+
+* **disable-startup-shorts-player:** remove redundant opcode pattern ([#679](https://github.com/revanced/revanced-patches/issues/679)) ([5197a24](https://github.com/revanced/revanced-patches/commit/5197a24cc5ecc1b51cdc5c00c77c873b86394994))
+
+# [2.76.0](https://github.com/revanced/revanced-patches/compare/v2.75.2...v2.76.0) (2022-09-30)
+
+
+### Features
+
+* bump YouTube Music patches compatibility to v5.26.52 ([#681](https://github.com/revanced/revanced-patches/issues/681)) ([f195734](https://github.com/revanced/revanced-patches/commit/f195734925dd41596d058f9cbf2b7e619a8d5833))
+
+## [2.75.2](https://github.com/revanced/revanced-patches/compare/v2.75.1...v2.75.2) (2022-09-30)
+
+
+### Bug Fixes
+
+* **twitter patches.:** use wider compatible Java API for writing to file ([#678](https://github.com/revanced/revanced-patches/issues/678)) ([4448de8](https://github.com/revanced/revanced-patches/commit/4448de80a6277862d81c7a29b9489e4fbec48496))
+
 ## [2.75.1](https://github.com/revanced/revanced-patches/compare/v2.75.0...v2.75.1) (2022-09-29)
 
 
